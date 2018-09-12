@@ -8,9 +8,9 @@
     <Sidebar v-bind:drawer="drawer"/>
 
     <v-content>
-      <v-container fill-height>
-        <v-layout justify-center align-center>
-          
+      <v-container class="pa-0">
+        <v-layout>
+          <Board />
         </v-layout>
       </v-container>
     </v-content>
@@ -20,6 +20,7 @@
 <script>
   import Header from './components/layout/Header.vue'
   import Sidebar from './components/layout/Sidebar.vue'
+  import Board from './components/board/index.vue'
 
   export default {
     data: () => ({
@@ -34,7 +35,8 @@
     name: 'App',
     components: {
       Header,
-      Sidebar
+      Sidebar,
+      Board
     }
   }
 </script>

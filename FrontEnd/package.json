@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
+    "vue-dragscroll": "^1.5.0",
+    "vuedraggable": "^2.16.0",
     "vuetify": "^1.0.0"
   },
   "devDependencies": {
@@ -58,7 +60,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "2.9.1",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
