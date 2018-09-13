@@ -15,18 +15,18 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      drawer: false
-    }),
-    methods: {
-      toggleDrawer: function () {
-        this.$emit("toggleDrawer")
-      }
-    },
+export default {
+  data: () => ({
+    drawer: false
+  }),
+  methods: {
+    toggleDrawer: function () {
+      this.$emit("toggleDrawer")
+    }
+  },
 
-    name: 'Header',
-  }
+  name: 'Header',
+}
 </script>
 
 <style scoped>
