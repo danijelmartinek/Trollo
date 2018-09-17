@@ -15,6 +15,7 @@
 </template>
 
 <script>
+
 export default {
   data: () => ({
     drawer: false
@@ -25,10 +26,6 @@ export default {
     }
   },
 
-  name: 'Header',
+  name: 'Header'
 }
 </script>
-
-<style scoped>
-
-</style>

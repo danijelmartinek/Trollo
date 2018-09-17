@@ -1,17 +1,16 @@
 <template>
-  <v-app
-    id="inspire"
-    dark
-  >
-    <Header v-on:toggleDrawer="toggleDrawer()"/>
+  <v-app id="mainComponent" dark>
 
-    <Sidebar v-bind:drawer="drawer"/>
+    <Header v-on:toggleDrawer="toggleDrawer()"></Header>
+
+    <Sidebar v-bind:drawer="drawer"></Sidebar>
 
     <v-content>
       <v-layout>
-        <Board />
+        <Board></Board>
       </v-layout>
     </v-content>
+    
   </v-app>
 </template>
 
